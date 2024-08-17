@@ -9,7 +9,7 @@
 
 ## Functionality <br/>
   <strong>Car price calculator</strong> <br/>
-  Car price calculation depending on several params:
+  Car price calculation depending on several params:<br/>
 	&bull; Car brand<br/>
 	&bull; Fuel type<br/>
     &bull; Engine capacity<br/>
