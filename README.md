@@ -1,4 +1,4 @@
-# Chat service <br/>
+# Car price calculator <br/>
  Website for calculating car price <br/>
 <img src="readme.png" />
 
