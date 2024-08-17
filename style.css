@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    margin-left: 50px;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    border: 1px solid black;
+}
+
+
+.errors {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+    color: red;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 0px 40px;
+    background-color: rgba(0, 0, 255, 0.5);
+    width: 70vw;
+    margin-left: 50px;
+}
+
+.auto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.auto__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
+    height: fit-content;
+    border: 2px solid blanchedalmond;
+}
+
+.auto__field {
+    width: 160px;
+}
+
+.radio-selector {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+} 
+
+
+.button {
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+} 
+
+.button:disabled {
+    background-color: rgba(128, 128, 128, 0.4); 
+    color: white;
+}
+
+.button:enabled {
+    background-color: rgba(0, 0, 255, 0.5);
+} 
+
+.button:enabled:hover {
+    background-color: rgb(157, 238, 157); 
+}
+
+
+
+/* ПОЛЕ ВЫВОДА */
+.output{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    
+    
+}
+
+.output__titile {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+
+.output__subtitle {
+    font-size: 20px;
+    font-weight: 600;
+} 
+
+.output__item {
+    font-size: 10px;
+    font-weight: 400;
+}
